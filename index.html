@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://unpkg.com/redux@^3.5.2/dist/redux.min.js"></script>
+  <script src="https://unpkg.com/@reactivex/rxjs/dist/global/Rx.js"></script>
+  <script src="https://unpkg.com/redux-observable/dist/redux-observable.min.js"></script>
+  <meta charset="utf-8">
+  <title>Sleep</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+  <style type="text/css">
+	.container  {
+	  display: flex;
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  height: 100%;
+	  width: 100%;
+	  visibility: hidden;
+	}
+
+	.container .row {
+	  margin: 0 auto;
+	}
+  </style>
+</head>
+<body>
+	<div class="container" id = 'res'>
+	  <div class="row valign-wrapper">
+	    <div class="col s10 valign">
+	      <div class="card horizontal">
+		      <div class="card-image">
+		        <img src="http://lorempixel.com/100/190/nature/6">
+		      </div>
+		      <div class="card-stacked">
+		        <div class="card-content">
+		          <p id = 'text'></p>
+		        </div>
+		        <div class="card-action">
+		          <a href="#">move your mouse to resume</a>
+		        </div>
+		      </div>
+		  </div>
+	    </div>
+	  </div>
+	</div>
+</body>
+<script type="text/javascript" src = 'main.js'></script>
+</html>
