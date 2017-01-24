@@ -1,7 +1,7 @@
 # Session_Timer
-It is a demo that automatically starts timer when the user is silent for 2 seconds. If the user keeps silent for 30 seconds, the user will be forced to log off.
+It is a demo that automatically starts timer when the user is silent for 2 seconds. If the user keeps silent for 30 seconds, the user will be forced to log off. Any mouse movement during that period will resume to normal state.
 ## Technology
-Rxjs  
+Rxjs, materializeCSS
 ## Live
 [Session Timer](https://xinyzhang9.github.io/Session_Timer/)  
 ## Screenshot
